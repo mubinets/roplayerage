@@ -1,0 +1,24 @@
+{
+  "name": "roplayerage-v1.1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "clean": "IF EXIST dist rmdir /s /q dist",
+    "copy-assets": "robocopy . dist /S /E /XF tsconfig.json /XD src /XD dist /XD node_modules /XF *.ts /XF *.tsx /XF *.map /XF package.json /XF package-lock.json /XF webpack.config.js",
+    "build": "npm run clean && webpack --mode=production && npm run copy-assets",
+    "watch": " npm run clean && webpack --mode=development --watch && npm run copy-assets"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "ts-loader": "^9.5.1",
+    "typescript": "^5.4.4",
+    "webpack": "^5.91.0",
+    "webpack-cli": "^5.1.4"
+  },
+  "dependencies": {
+    "@types/chrome": "^0.0.265"
+  }
+}

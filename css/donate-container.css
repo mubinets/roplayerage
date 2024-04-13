@@ -1,0 +1,87 @@
+.roplayerage-banner-container {
+    display: flex;
+    justify-content: center;
+}
+
+.roplayerage-banner {
+    max-width: 900px;
+}
+
+.content.roplayerage-donate-title-label {
+    font-size: 30px;
+    font-weight: 700;
+    padding: 0px 20px 0px 20px;
+    text-align: center;
+    margin: 30px 0px 30px 0px;
+}
+
+.content.roplayerage-donate-description-label {
+    margin: 0px 0px 50px 0px;
+    font-weight: 400;
+    padding: 0px 150px 0px 150px;
+    text-align: center;
+}
+
+.roplayerage-donate-buttons-container {
+    display: grid;
+    column-gap: 20px;
+    row-gap: 20px;
+    align-content: center;
+    justify-content: center;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+
+.roplayerage-donate-buttons-container.roplayerage-donate-button {
+    align-content: start;
+    background-color: rgb(30, 32, 34);
+    width: 350px;
+    height: 100px;
+    border-radius: 10px;
+}
+
+.roplayerage-donate-buttons-container.roplayerage-donate-button:hover {
+    outline: 3px solid #00b06f;
+    background-color: #1e2c27;
+    cursor: pointer;
+}
+
+.roplayerage-donate-button.roplayerage-donate-button-labels-container {
+    display: flex;
+    padding: 20px 0px 0px 20px;
+    gap: 10px;
+}
+
+.roplayerage-donate-button-labels-container.roplayerage-donate-button-robux-amount-label {
+    font-weight: 500;
+    font-size: 27px;
+}
+
+.roplayerage-buttons-container-wrapper {
+    display: grid;
+    justify-content: center;
+}
+
+.roblox-icon {
+    height: 40px;
+    width: 40px;
+}
+
+.icon-robux-28x28.roplayerage-donate-button-robux-label {
+    width: 100%;
+    height: 100%;
+    background-size: 195%;
+}
+
+.roplayer-donate-disclaimer-container {
+    margin: 50px 200px 0px 200px;
+}
+
+span.roplayerage-donate-disclaimer-note-label {
+    color: white;
+    font-weight: 500;
+}
+
+span.roplayerage-donate-disclaimer-label {
+    color: #bdbebe;
+}

@@ -1,0 +1,23 @@
+.profile-account-age-label-container {
+    display: flex;
+    gap: 15px;
+    margin: 10px 0px 10px 0;
+}
+
+.profile-account-age-container .profile-account-age-title {
+    font-size: 20px;
+    font-weight: 700;
+    margin: 0px 0px 10px 0px;
+}
+
+.profile-account-age-container.profile-account-age-labels {
+    font-weight: 500;
+}
+
+.profile-account-age-container.profile-account-age-tip {
+    color: #bdbebe;
+}
+
+.profile-account-age-container.profile-account-age-tip-link {
+    font-weight: 500;
+}
